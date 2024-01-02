@@ -26,7 +26,7 @@ overflow-x: hidden;
 }
 
 .container-navbar__brand img{
-    width: 60px;
+    max-width: 60px;
     border-radius: 50%;
 }
 
@@ -75,7 +75,7 @@ overflow-x: hidden;
     flex-direction: column;
     justify-content: space-between;
     height: 350px;
-    align-content: center;
+    align-items: center;
     padding:20px;
     margin-top: 40px;
 }
@@ -122,9 +122,6 @@ overflow-x: hidden;
     margin-left: 10px;
 }
 
-/* .container-input__searchbox input{
-    width: 100%;
-} */
 
 .container-input__box a{
     background-color: #84E9BD;
@@ -145,20 +142,17 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    /* width: 100%; */
 }
 
 .image img{
-    width: 100%;
+    max-width: 100%;
     height: 50%;
     border-radius: 20px;
-
 }
 
 .container-smallcontent{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .container-smallcontent__innerbox{
@@ -166,7 +160,6 @@ overflow-x: hidden;
     justify-content: space-between;
     margin-top: 40px;
     background-color: #FAF1ED;
-    width: 100%;
     position: relative;
 }
 
@@ -215,30 +208,23 @@ overflow-x: hidden;
 
 
 .scroll-bar__title{
-    /* position: relative;
-    left: 132px; */
     margin-top: 40px;
-    width: 100%;
 }
 
 .scroll-bar__images{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin-top: 20px;
 
 }
 
 .scroll-bar__images1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    flex-basis: 100%;
+    display: flex; 
 }
 
-.scroll-bar__images2{
-    flex-basis: 10%;
+ .scroll-bar__images2{
+        flex-basis: 10%;
 }
 
 .scroll-bar__images2 img{
@@ -267,14 +253,7 @@ overflow-x: hidden;
 }
 
 .scroll-bar2__title{
-    /* position: relative;
-    left: 132px; */
     margin-top: 40px;
-    width: 100%;
-}
-
-.scroll-bar2{
-    width: 100%;
 }
 
 .scroll-bar2__title h1{
@@ -290,16 +269,14 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin-top: 20px;
 }
 
 .scroll-bar2__images1{
     display: flex;
     flex-wrap:nowrap;
-    width:100%;
     overflow-x: auto;
-    gap: 75px;
+    gap: 50px;
 }
 
 .scroll-bar2__images1::-webkit-scrollbar{
@@ -333,10 +310,7 @@ overflow-x: hidden;
 }
 
 .scroll-bar3__title{
-    /* position: relative;
-    left: 132px; */
     margin-top: 40px;
-    width: 100%;
 }
 .scroll-bar3__title h1{
     font-weight: bolder;
@@ -351,15 +325,14 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
     margin-top: 20px;
 }
 
 .scroll-bar3__images1{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    width:100%;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+    gap: 50px;
 }
 
 .scroll-bar3__images1::-webkit-scrollbar{
@@ -392,12 +365,8 @@ overflow-x: hidden;
     margin-bottom:15px;
 }
 
-
 .scroll-bar4__title{
-    /* position: relative;
-    left: 132px; */
     margin-top: 40px;
-    width: 100%;
 }
 .scroll-bar4__title h1{
     font-weight: bolder;
@@ -412,16 +381,14 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
     margin-top: 20px;
 }
 
 .scroll-bar4__images1{
     display: flex;
     flex-wrap:nowrap;
-    width:100%;
     overflow-x: auto;
-    gap: 75px;
+    gap: 50px;
 }
 
 .scroll-bar4__images1::-webkit-scrollbar{
@@ -448,29 +415,25 @@ overflow-x: hidden;
     background-color: #00AA6C;
     justify-content: space-around;
     margin-top: 40px;
-    width: 100%;
     }
 
-.highlight-page__image img{
-    width: 1000px;
-}
 
 .highlight-page__disc{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 35%;
 }
 
 .highlight-page__disc h1{
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 2px;
 }
 
 .highlight-page__disc p{
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 5px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(51, 51, 51);
@@ -496,7 +459,6 @@ overflow-x: hidden;
     display: flex;
     background-color: #FFCCCC;
     justify-content: space-between;
-    width: 100%;
     margin-top: 40px;
 }
 
@@ -535,14 +497,12 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin-top: 20px;
 }
 
 .discription-container__images1{
     display: flex;
     flex-wrap:nowrap;
-    width:100%;
     overflow-x: auto;
     gap: 75px;
 }
@@ -566,16 +526,9 @@ overflow-x: hidden;
     margin-top: 10px;
 }
 
-.footer-container__disc{
-    position: relative;
-    width: 100%;
-}
 
 .discription__title{
-    /* position: relative;
-    left: 132px; */
     margin-top: 40px;
-    width: 100%;
 }
 .discription__title h1{
     font-weight: bolder;
@@ -590,16 +543,14 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
     margin-top: 20px;
 }
 
 .discription__images1{
     display: flex;
     flex-wrap:nowrap;
-    width:100%;
     overflow-x: auto;
-    gap: 75px;
+    gap: 50px;
 }
 
 .discription__images1::-webkit-scrollbar{
@@ -621,42 +572,43 @@ overflow-x: hidden;
     left: 10px;
     color:white;
     font-size: 2.7em;
-    width: 100%;
 }
 
+.footer-container__disc{
+    position: relative;
+}
 
-
-.footer-container__disc img:nth-child(1){
+.footer-container__disc img{
     width: 100%;
     height: 40%;
 }
 
 
 .footer-container__disc h1{
-    font-size: 6em;
-    position: absolute;
-    top:30%;
-    color: yellow;
-    padding-left:0 50px;
-}
-
-.footer-container__disc p{
     font-size: 4em;
     position: absolute;
     top:40%;
-    color:yellow;
-    padding:0 50px;
+    color:black;
+    padding-left:50px;
+}
+
+.footer-container__disc p{
+    font-size: 2.5em;
+    position: absolute;
+    top:50%;
+    color:white;
+    padding-left:50px;
 }
 
 .footer-container__disc a{
     background-color: black;
-    color:yellow;
+    color:white;
     position: absolute;
-    top:60%;
+    top:70%;
     left: 50px;
-    padding: 50px 80px;
+    padding: 30px 40px;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 3em;
     border-radius: 80px;
 
 }
@@ -671,7 +623,7 @@ overflow-x: hidden;
     align-content: center;
     justify-content: center;
     display: none;
-    width: 60%;
+    max-width: 60%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;;
     padding: 20px;
     
@@ -680,10 +632,9 @@ overflow-x: hidden;
 
 .container-input__mobile input{
     border: none;
-    /* border-bottom:1px solid rgb(51, 51, 51); */
     justify-self: center;
     padding-bottom: 3px;
-    width: 100%;
+    max-width:100%;
     font-size: 1em;
 }
 
@@ -699,10 +650,12 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
 }
+
 .recent-search__title{
     display: none;
     margin-top: 40px;
     margin-left: 20px;
+    font-size: 25px;
 }
 .recent-search__container{
     display: flex;
@@ -729,6 +682,7 @@ overflow-x: hidden;
         margin: 0%;
         padding: 0%;
         overflow-x: hidden;
+        width: 100%;
     }
 
     .container-navbar{
@@ -765,8 +719,10 @@ overflow-x: hidden;
 
     .container-input__content{
         font-size: 10px;
-        width:100%;
+        min-width:100%;
         flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
     }
 
     .container-input__mobile{
@@ -787,7 +743,7 @@ overflow-x: hidden;
     }
 
     .image img{
-        width:300px;
+        max-width: 100%;
         border-radius:0;
     }
 
@@ -805,32 +761,31 @@ overflow-x: hidden;
     }
 
     .scroll-bar__title h1{
-        font-size: 1em;
+        font-size: 25px;
     }
 
     .scroll-bar__images1{
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
         overflow-x: auto;
-         flex-basis: 100%;
-         gap: 20px;
+        gap: 50px;
     }
 
     .scroll-bar__images1 p{
-        font-size: 1em;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
-    .scroll-bar__images::-webkit-scrollbar{
+    .scroll-bar__images1::-webkit-scrollbar{
         background: transparent;
     }
     
     .scroll-bar2__title h1{
-        font-size:1.5em;
+        font-size:25px;
     }
 
     .scroll-bar2__title p{
-        font-size: 1em;
+        font-size: 16px;
     }
 
     .scroll-bar2__images1{
@@ -848,7 +803,7 @@ overflow-x: hidden;
     }
 
     .scroll-bar3__title h1{
-        font-size:25;
+        font-size:25px;
     }
 
     .scroll-bar3__title p{
@@ -934,6 +889,11 @@ overflow-x: hidden;
         display: none;
     }
 
+    .discription-container__images2 p{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     .discription__title h1{
         font-size: 25px;
         margin-top: 40px;
@@ -954,10 +914,12 @@ overflow-x: hidden;
 
     .footer-container__disc {
         display:block;
+        background-color: #60261B;
+
       }
 
     .footer-container__disc img{
-        width: 350px;
+        max-width: 100%;
     }
 
     .footer-container__disc h1{
@@ -987,26 +949,52 @@ overflow-x: hidden;
 
 }
 
-@media screen and (max-width:1204px) {
-    .conatiner-navbar__links{
-        display: none;
+
+@media screen and (min-width:600px) {
+    .container-navbar__brand img{
+        max-width: 50px;
     }
-    
-    .container-navbar__brand{
+
+    .container-navbar__brand h1{
         font-size: 1em;
     }
 
-    .container-navbar__buttons{
-        font-size: 10px;
+    .conatiner-navbar__links a{
+        font-size: 16px;
     }
 
-    .container-input__content{
-        flex-wrap: wrap;
+    .container-navbar__buttons a{
+        font-size: 1em;
     }
 
     .container-input h1{
+        font-size: 50px;
+    }
+
+    .container-input{
+        height: 200px;
+        justify-content: space-between;
+    } 
+
+    .container-input__content a{
+        font-size: 1em;
+    }
+
+    .container-input__searchbox i,input{
+        font-size:1em ;
+    }
+
+    .container-input__box a{
+        font-size: 16px;
+        padding: 15px 30px; 
+    }
+    
+    .container-smallcontent{
         display: none;
     }
 
 }
+
+
+
 
