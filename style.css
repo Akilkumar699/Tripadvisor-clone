@@ -245,6 +245,7 @@ overflow-x: hidden;
     font-size: 1.5em;
     margin-top: 10px;
     flex-basis: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     
 
 }
@@ -272,6 +273,7 @@ overflow-x: hidden;
 .scroll-bar2__title p{
     margin-top: 10px;
     font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* .scroll-bar2__image{
@@ -305,6 +307,7 @@ overflow-x: hidden;
 .scroll-bar2__images2 p{
     font-size: 1.5em;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .review1{
@@ -329,6 +332,7 @@ overflow-x: hidden;
 .scroll-bar3__title p{
     margin-top: 10px;
     font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* 
 .scroll-bar3__image{
@@ -362,6 +366,7 @@ overflow-x: hidden;
 .scroll-bar3__images2 p{
     font-size: 1.5em;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .review2{
@@ -386,6 +391,7 @@ overflow-x: hidden;
 .scroll-bar4__title p{
     margin-top: 10px;
     font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* .scroll-bar4__image{
@@ -542,6 +548,7 @@ overflow-x: hidden;
 .discription-container__images2 p{
     font-size: 1.5em;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -555,6 +562,7 @@ overflow-x: hidden;
 .discription__title p{
     margin-top: 10px;
     font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* .discription__image{
