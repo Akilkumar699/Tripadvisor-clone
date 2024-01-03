@@ -23,12 +23,12 @@ overflow-x: hidden;
 .container-navbar__brand{
     display: flex;
     align-items: center;
-    gap: 20px;
-    font-size: 2em; 
+    gap: 10px;
+    font-size: 20px; 
 }
 
 .container-navbar__brand img{
-    max-width: 60px;
+    max-width: 50px;
     border-radius: 50%;
 }
 
@@ -41,7 +41,7 @@ overflow-x: hidden;
 .conatiner-navbar__links a{
     text-decoration: none;
     color: black;
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -57,7 +57,7 @@ overflow-x: hidden;
 
 .container-navbar__buttons a{
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bolder;
     padding: 15px 20px;
     border-radius: 30px;
@@ -83,7 +83,7 @@ overflow-x: hidden;
 }
 
 .container-input h1{
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .container-input__content{
@@ -94,7 +94,7 @@ overflow-x: hidden;
 .container-input__content a{
     text-decoration: none;
     color: black;
-    font-size: 2em;
+    font-size: 30px ;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -120,7 +120,7 @@ overflow-x: hidden;
 
 .container-input__searchbox i, input{
     border: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 10px;
 }
 
@@ -183,10 +183,11 @@ overflow-x: hidden;
 .container-smallcontent__s1 h1{
     margin-top: 10px;
     letter-spacing: 2px;
+    font-size: 1.5em;
 }
 .container-smallcontent__s1 h4{
     margin-top: 10px;
-    font-size: 1.3em;
+    font-size: 20px ;
     font-weight: lighter;
     letter-spacing: 2px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -213,6 +214,10 @@ overflow-x: hidden;
     margin-top: 40px;
 }
 
+.scroll-bar__title h1{
+    font-size: 30px;
+}
+
 /* .scroll-bar__images{
     display: flex;
     justify-content: center;
@@ -228,9 +233,9 @@ overflow-x: hidden;
     gap: 50px;
 }
 
- .scroll-bar__images2{
+ /* .scroll-bar__images2{
         flex-basis: 10%;
-}
+} */
 
 .scroll-bar__images1::-webkit-scrollbar{
     background: transparent;
@@ -242,7 +247,7 @@ overflow-x: hidden;
 }
 
 .scroll-bar__images2 p{
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: 10px;
     flex-basis: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -258,7 +263,7 @@ overflow-x: hidden;
 }
 
 .review p{
-    font-size: 1em;
+    font-size: 15px;
     margin-bottom:15px;
 }
 
@@ -267,12 +272,12 @@ overflow-x: hidden;
 }
 
 .scroll-bar2__title h1{
-    font-weight: bolder;
+    font-size: 30px;
 }
 
 .scroll-bar2__title p{
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -305,7 +310,7 @@ overflow-x: hidden;
 }
 
 .scroll-bar2__images2 p{
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -318,7 +323,7 @@ overflow-x: hidden;
 }
 
 .review1 p{
-    font-size: 1em;
+    font-size: 15px;
     margin-bottom:15px;
 }
 
@@ -326,12 +331,12 @@ overflow-x: hidden;
     margin-top: 40px;
 }
 .scroll-bar3__title h1{
-    font-weight: bolder;
+    font-size: 30px;
 }
 
 .scroll-bar3__title p{
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* 
@@ -364,7 +369,7 @@ overflow-x: hidden;
 }
 
 .scroll-bar3__images2 p{
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -377,7 +382,7 @@ overflow-x: hidden;
 }
 
 .review2 p{
-    font-size: 1em;
+    font-size: 15px;
     margin-bottom:15px;
 }
 
@@ -385,12 +390,12 @@ overflow-x: hidden;
     margin-top: 40px;
 }
 .scroll-bar4__title h1{
-    font-weight: bolder;
+    font-size: 30px;
 }
 
 .scroll-bar4__title p{
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -423,7 +428,7 @@ overflow-x: hidden;
     top: 200px;
     left: 10px;
     color:white;
-    font-size: 2.7em;
+    font-size: 40px;
     width: 100%;
 }
 
@@ -449,8 +454,9 @@ overflow-x: hidden;
 }
 
 .highlight-page__disc h1{
-    font-size: 2.5em;
+    font-size: 30px;
     letter-spacing: 2px;
+
 }
 
 .highlight-page__disc p{
@@ -485,6 +491,10 @@ overflow-x: hidden;
     margin-top: 40px;
 }
 
+.highlight-page2__disc h1{
+    font-size: 30px;
+}
+
 .highlight-page2__disc{
     display: flex;
     flex-direction: column;
@@ -492,9 +502,10 @@ overflow-x: hidden;
     margin-left:10px ;
 }
 
+
 .highlight-page2__disc p{
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     color: rgb(51, 51, 51);
@@ -505,14 +516,16 @@ overflow-x: hidden;
     margin-top: 20px;
     background-color: black;
     color: white;
-    padding: 20px 40px;
-    width: 10%;
+    width: 20%;
+    padding: 20px 20px;
     border-radius: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
      }
 
 .discription-container__title h1{
-    font-weight: bolder;
-    width: 100%;
+    font-size: 30px;    
     margin-top: 40px;
 }
 
@@ -546,7 +559,7 @@ overflow-x: hidden;
 }
 
 .discription-container__images2 p{
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -556,12 +569,12 @@ overflow-x: hidden;
     margin-top: 40px;
 }
 .discription__title h1{
-    font-weight: bolder;
+    font-size: 30px;
 }
 
 .discription__title p{
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -598,7 +611,7 @@ overflow-x: hidden;
     top: 200px;
     left: 10px;
     color:white;
-    font-size: 2.7em;
+    font-size: 40px;
 }
 
 .footer-container__disc{
@@ -640,6 +653,8 @@ overflow-x: hidden;
     display: flex;
     align-self: flex-start;
     border-radius: 30px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .navbar-icon{
@@ -726,11 +741,11 @@ overflow-x: hidden;
     }
 
     .container-navbar__brand h1{
-        font-size: 1.2em;
+        font-size: 30px;
     }
 
     .container-navbar__brand img{
-        width: 30px;
+        width: 40px;
         margin-left: 0;
     }
 
@@ -747,11 +762,14 @@ overflow-x: hidden;
     }
 
     .container-input__content{
-        font-size: 10px;
         min-width:100%;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
+    }
+
+    .container-input__content a{
+        font-size: 20px;
     }
 
     .container-input__mobile{
@@ -789,8 +807,12 @@ overflow-x: hidden;
         display: block;
     }
 
+    .recent-search__title h1{
+        font-size: 20px;
+    }
+
     .scroll-bar__title h1{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .scroll-bar__images1{
@@ -810,7 +832,7 @@ overflow-x: hidden;
     }
     
     .scroll-bar2__title h1{
-        font-size:25px;
+        font-size:20px;
     }
 
     .scroll-bar2__title p{
@@ -832,7 +854,7 @@ overflow-x: hidden;
     }
 
     .scroll-bar3__title h1{
-        font-size:25px;
+        font-size:20px;
     }
 
     .scroll-bar3__title p{
@@ -855,7 +877,11 @@ overflow-x: hidden;
     }
 
     .scroll-bar4__title h1{
-        font-size:25px;
+        font-size:20px;
+    }
+
+    .scroll-bar4__images2 h1{
+        font-size: 30px;
     }
 
     .scroll-bar4__title p{
@@ -900,6 +926,7 @@ overflow-x: hidden;
 
     .highlight-page__disc a{
         margin-top: 20px;
+        font-size: 16px;
     }
 
     .highlight-page__disc h1{
@@ -917,14 +944,15 @@ overflow-x: hidden;
     .highlight-page2{
         display: none;
     }
+    
 
     .discription-container__images2 p{
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .discription__title h1{
-        font-size: 25px;
+    .discription-container__title h1{
+        font-size: 20px;
         margin-top: 40px;
     }
 
@@ -936,11 +964,20 @@ overflow-x: hidden;
         width:100%;
     }
 
+    .discription__title h1{
+        font-size: 20px;
+    }
+
     .discription__title p{
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .discription__images2 h1{
+        font-size: 30px;
+    }
+
+    
     .footer-container__disc {
         display:block;
         background-color: #60261B;
@@ -960,6 +997,9 @@ overflow-x: hidden;
         font-size: 20px;
     }
 
+    .review p,.review1 p,.review2 p{
+        font-size: 12px;
+    }
 
 
 
@@ -974,7 +1014,7 @@ overflow-x: hidden;
     }
 
     .container-navbar__brand h1{
-        font-size: 1em;
+        font-size: 30px;
     }
 
     .conatiner-navbar__links{
@@ -1024,16 +1064,17 @@ overflow-x: hidden;
     .highlight-page__disc{
         max-width: 50%;
     }
+
     .highlight-page h1{
-        font-size: 1.5em;
+        font-size: 25px;
     }
 
     .highlight-page p{
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     .highlight-page a{
-        font-size: 1em;
+        font-size: 16px;
     }
 
     .highlight-page2__disc{
@@ -1045,15 +1086,39 @@ overflow-x: hidden;
     }
 
     .highlight-page2__disc h1{
-        font-size: 1.5em;
+        font-size: 25px;
     }
 
     .highlight-page2__disc p{
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     .highlight-page2__disc a{
-        font-size: 10px;
+        font-size: 16px;
+    }
+
+    .scroll-bar__title h1,.scroll-bar2__title h1,.scroll-bar3__title h1,.scroll-bar2__title h1,.scroll-bar4__title h1,.discription-container__title h1,.discription__title h1{
+        font-size:25px ;
+    }
+
+    .scroll-bar__title p,.scroll-bar2__title p,.scroll-bar3__title p,.scroll-bar2__title p,.scroll-bar4__title p,.discription-container__title p,.discription__title p{
+        font-size:20px ;
+    }
+
+    .scroll-bar__images1 p,.scroll-bar2__images1 p,.scroll-bar3__images1 p,.scroll-bar2__images1 p,.scroll-bar4__images1 p,.discription-container__images1 p{
+        font-size:20px ;
+    }
+
+    .scroll-bar4__images2 h1{
+        font-size: 30px;
+    }
+
+    .discription__images2 h1{
+        font-size: 30px;
+    }
+
+    .review p,.review1 p,.review2 p{
+        font-size: 15px;
     }
 }
 
